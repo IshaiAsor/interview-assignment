@@ -1,27 +1,17 @@
-# AssignmentClient
+# מטלת כתיבת קוד ב-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+מטרת המטלה היא הדגמה של יכולותיך בכתיבת features וכן של סגנון הקוד שלך. מכיוון שהמטלה מוגבלת בזמן יהיה עליך לתעדף חלקים מהעבודה, ולאזן בין סגנון קוד נקי והשלמת המשימות. אין ציפיה שכל המשימות תושלמנה באופן נקי, עליך לעבוד בפרק הזמן שהוקצב ולהציג בפנינו את התוצאות. לאחר סיום המטלה נעבור יחד על הקוד ונדבר על ההחלטות שקיבלת.
 
-## Development server
+## המשימה
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+המטלה היא להוסיף feature חדש לאתר של בית קולנוע. יש להוסיף מסך חדש במערכת בו המשתמש יוכל לראות את רשימת הסרטים המוצגים בקולנוע ולהזמין כרטיסים. בכניסה למסך תוצג למשתמש רשימה של סרטים שתישלף מצד השרת. עבור כל סרט תתאפשר הצגה של תפריט עם רשימה של ההקרנות שלו, בו המשתמש יוכל להזמין כרטיסים עבור הקרנה של הסרט. יש לאפשר הזמנת כרטיסים עבור סרט רק במידה ונותרו מושבים פנויים. ניתן להזמין יותר מכרטיס אחד עבור הקרנה.
 
-## Code scaffolding
+- ישנו פירוט של ה-API שצד השרת חושף בקובץ `assignment-server/readme
+- אין צורך לבצע שינויים בצד השרת, המשימה היא עבור צד הלקוח בלבד.
+- בצד הלקוח לא מוגדרות כרגע תלויות בספריות חיצוניות, ניתן לייבא ספריות על מנת להקל את העבודה במידת הצורך.
+- יש להסיף את המסך החדש כ-route חדש במערכת, תחת הנתיב '/movies'.
+- בתפריט הזמנת הכרטיסים יש לאפשר הזמנת כרטיסים לסרט רק כאשר נותרו כרטיסים פנויים עבורו. אין לאפשר הזמנה של מספר כרטיסים גדול ממספר המושבים הפנויים.
+- עבור התהליכים במסך יש לממש תפעול שגיאות ו-race conditions. האם המסך עדיין יעבוד באופן תקין במקרה בו יהיה delay מסוים עבור חלק מהבקשות?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+אנחנו זמינים לשאלות,
+בהצלחה!
