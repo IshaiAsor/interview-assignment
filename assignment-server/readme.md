@@ -12,12 +12,12 @@ Errors:
 2. Return info about booking specific movie.
 http:/localhost:3000/api/movies/booking/:movieId
 GET Request
-- movieId   (number) -> Identifier for the movie.
-- id        (number) -> Identifier for the movie screening (used to identify booking to specific movie screening).
+- movieId   (number) -> movie Identifier.
+- id        (number) -> screening Identifier for the movie screening (used to identify booking to specific movie screening).
 - showTime  (Date)   -> Represents the show time of the movie screening.
-- hallId    (number) -> Identifier for the hall.
-- capacity  (number) -> Capacity of the hall.
-- booked    (number) -> Count of booked tickets for the movie screening.
+- hallId    (number) -> Hall Identifier.
+- capacity  (number) -> Hall Capacity.
+- booked    (number) -> Booked Ticket Counter for the movie screening.
 
 Errors:
 - 400 - Bad request for invalid movie identifier.
