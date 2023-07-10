@@ -19,11 +19,28 @@ const halls = [
 
 const bookings = [
   { id: 10, movieId: 1, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 1, booked: 7 },
+  { id: 11, movieId: 1, showTime: new Date(now.getTime() + 60 * 60 * 3000), hallId: 1, booked: 5 },
+  { id: 12, movieId: 1, showTime: new Date(now.getTime() + 60 * 60 * 5000), hallId: 1, booked: 4 },
+
   { id: 20, movieId: 2, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 2, booked: 5 },
+  { id: 21, movieId: 2, showTime: new Date(now.getTime() + 60 * 60 * 3000), hallId: 2, booked: 7 },
+  { id: 22, movieId: 2, showTime: new Date(now.getTime() + 60 * 60 * 5000), hallId: 2, booked: 9 },
+
   { id: 30, movieId: 3, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 3, booked: 12 },
+  { id: 31, movieId: 3, showTime: new Date(now.getTime() + 60 * 60 * 3000), hallId: 3, booked: 13 },
+  { id: 32, movieId: 3, showTime: new Date(now.getTime() + 60 * 60 * 5000), hallId: 3, booked: 1 },
+
   { id: 40, movieId: 4, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 4, booked: 22 },
+  { id: 41, movieId: 4, showTime: new Date(now.getTime() + 60 * 60 * 3000), hallId: 4, booked: 2 },
+  { id: 42, movieId: 4, showTime: new Date(now.getTime() + 60 * 60 * 5000), hallId: 4, booked: 12 },
+
   { id: 50, movieId: 5, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 5, booked: 13 },
-  { id: 60, movieId: 6, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 6, booked: 13 }
+  { id: 51, movieId: 5, showTime: new Date(now.getTime() + 60 * 60 * 3000), hallId: 5, booked: 10 },
+  { id: 52, movieId: 5, showTime: new Date(now.getTime() + 60 * 60 * 5000), hallId: 5, booked: 15 },
+
+  { id: 60, movieId: 6, showTime: new Date(now.getTime() + 60 * 60 * 1000), hallId: 6, booked: 13 },
+  { id: 61, movieId: 6, showTime: new Date(now.getTime() + 60 * 60 * 3000), hallId: 6, booked: 10 },
+  { id: 62, movieId: 6, showTime: new Date(now.getTime() + 60 * 60 * 5000), hallId: 6, booked: 7 }
 ]
 
 const movies = [
